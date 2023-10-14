@@ -1,0 +1,78 @@
+/* 
+=====
+GENERAL STYLES
+=====
+*/
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: content-box;
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* 
+=====
+MAIN (QR CODE)
+=====
+*/
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.qr-code-container {
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 20%;
+  padding: 1%;
+}
+
+.qr-code-container img {
+  border-radius: 5%;
+  width: 100%;
+}
+
+.qr-code-text {
+    width: 90%;
+    text-align: center;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* 
+=====
+FOOTER
+=====
+*/
+
+.attribution {
+  bottom: 0;
+  font-size: 11px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: orange;
+}
